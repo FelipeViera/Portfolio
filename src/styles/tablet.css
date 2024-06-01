@@ -1,0 +1,93 @@
+@media screen and (min-width:501px) and (max-width: 1199px){
+    header{
+        display: grid;
+        height: 20vh;
+        width: 100vw;
+        place-items: center;
+        padding-top: 1vh;
+            
+    
+    }
+    
+    .container-name{
+        display: grid;
+        place-items: center;
+        font-size: 18pt;
+
+    }
+    
+    nav{
+        
+        display: flex;
+        place-items: center;
+    
+       
+    }
+    
+    .menu{
+        border: none;
+        background-color: transparent;
+        font-family: Padrao;
+        font-size: 15pt;
+        color: #f6f0e9;
+        text-align: center;
+        padding: 2.5vw;
+    }
+    .social {
+        height: 5vh;
+        margin-bottom: 10vh;
+        margin: 1vw;
+        
+    }
+
+    .card_aba{
+        margin-top: 5vh;
+        width: 60vw;
+        background-color: #273039;
+        border-radius:20px;
+        display: grid;
+        align-self: center;
+       
+    }
+
+    .central-foto{
+        text-align: center;
+    }
+
+    #foto{
+        height: 35vh;
+        
+    }
+
+
+    .titulo{
+        color:#5893D4;
+        font-size: 14pt;
+        text-align: center;
+
+    }
+
+    #texto-sobre{
+        padding: 3vw;
+        font-size: 9pt;
+    }
+    .cards-grid-projetos{
+        display: grid;
+    }
+
+
+    .item-project{
+        width: 35vw;
+        
+    }
+
+    .imagem-projeto{
+        align-self: center;
+        width: 35vw;
+        border-radius: 5px;
+    }
+    
+
+   
+    
+}

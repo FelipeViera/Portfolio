@@ -1,0 +1,129 @@
+@font-face {
+    font-family: Padrao;
+    src: url("../assets/fontes/ConsolaMono-Book.ttf");
+}
+
+@font-face {
+    font-family: codec;
+    src: url("../assets/fontes/Codec-Cold-News-trial.ttf");
+}
+
+
+body{
+    margin: 0;
+    padding: 0;
+    color: #f6f0e9;
+    background-color: #111D2A;
+    font-size: 12pt;
+    font-family: Padrao;
+
+}
+
+header{
+    background-color: #365f85;
+}
+
+
+a{
+    text-decoration: none;
+}
+
+
+main {
+    display: grid;
+    place-items: center;
+    align-self: center;
+}
+
+
+.centro {
+    margin-top: 10vh;
+    text-align: center;
+    align-items: center;
+    margin-bottom: 5vh;
+    
+}
+
+.card_aba{
+    margin-bottom: 5vh;
+}
+
+#foto{
+    border-radius: 10px;
+    align-self: center;
+    margin-top: 2vh;
+
+}
+
+.container-sobre{
+    text-align: justify;
+}
+
+
+.cards-grid{
+    display: flex;
+   
+}
+
+.item{
+    background-color: #273039;
+    border-radius: 10px;
+    text-align: center;
+    margin: 1vh;
+    
+}
+
+.itens-logotipo{
+    height: 10vh;
+    padding: 1vw;
+}
+
+#c-g {
+    display: grid;
+}
+
+
+
+
+.item-project{
+    background-color: #273039;
+    border-radius: 5px;
+    margin: 1vh;
+    padding: 2vw;
+    width: 20vw;
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+
+
+.imagem-projeto{
+    align-self: center;
+    width: 20vw;
+    border-radius: 5px;
+}
+
+.text-project{
+    text-align: justify;
+    font-size: 15pt;
+    flex-grow: 1;
+}
+
+footer{
+    margin-top: 3vh;
+    background-color: #365f85;
+    height: 30vh;
+    width: 100vw;
+    text-align: center;
+    padding-top: 3.5vh;
+    font-size: 8pt;
+   
+
+}
+
+.creditos{
+    color: white;
+    margin-bottom: 1vh;
+}

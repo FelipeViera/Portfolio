@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Felipe Vieira</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/fontawesome.css">
+    <link rel="stylesheet" href="src/styles/style.css">
+    <link rel="stylesheet" href="src/styles/desktop.css">
+    <link rel="stylesheet" href="src/styles/mobile.css">
+    <link rel="stylesheet" href="src/styles/tablet.css">
+    
+</head>
+<body>
+    <header>
+        <div class="container-name">
+            <a class="name">
+                Felipe Vieira da Silva
+            </a>
+        </div>
+        <nav>
+            <a href="#centro" class="menu" id="Inicio" onmouseenter="entrou(id)" onmouseout="saiu('Inicio')"> Inicio</a>
+            <a href="#sobre_mim" class="menu" id="Sobre mim" onmouseenter="entrou(id)" onmouseout="saiu('Sobre mim')"> Sobre mim</a>
+            <a href="#habilidades" class="menu" id="Habilidades" onmouseenter="entrou(id)" onmouseout="saiu('Habilidades')"> Habilidades</a>
+            <a href="#projetos"class="menu" id="Projetos" onmouseenter="entrou(id)" onmouseout="saiu('Projetos')"> Projetos</a>
+        </nav>
+    </header>
+
+    <main>
+        <div class="centro" id="centro">
+            <h1> Olá Mundo!</h1>
+            <h1> Eu sou o Felipe.</h1>
+            <h2> Desenvolvedor de <span style="color:#668db1"> Software</span></h2>
+        </div>
+        <div id="contato">
+            
+            <a href="https://www.linkedin.com/in/felipe-vieira-1b87142a9/" class="media">
+                <img class="social" src="src/assets/imagens/social/linkedin.png">
+            </a>
+            <a href="mailto:felipevieirasilva0905@gmail.com" class="media">
+                <img class="social" src="src/assets/imagens/social/gmail.png">
+            </a>
+
+            <a href="https://github.com/FelipeViera" class="media">
+                <img class="social" src="src/assets/imagens/social/github.png">
+            </a>
+
+
+        </div>
+        <div class="card_aba" id="sobre_mim">
+            <div class="central-foto">
+                <img id="foto"src="src/assets/imagens/foto.JPG">
+            </div>
+            <div class="container-sobre">
+                <p class="titulo"> Sobre mim:</p>
+                <p id="texto-sobre"> 
+                    Desde o inicio, aprendi e desenvolvi todas as minhas habilidades relacionadas ao 
+                    desenvolvimento de software de modo autodidata. Em busca de aprimoramento,
+                    continuo procurando cursos que possam auxiliar nessa minha jornada de início de carreira. 
+                    Sou fascinado por essa área da tecnologia e estou sempre disposto a aprender.
+                    Quero aplicar os meus conhecimentos ao lado de profissionais qualificados afim de 
+                    desenvolver-me como um excelente profissional.
+                </p>
+            </div>
+        </div>
+
+        <div class="habilidades" id="habilidades">
+            <div class="centro">
+                <h1>Habilidades</h1>
+            </div>
+            <div class="cards-grid">
+
+                <div class="item">
+                    <h2>Front-end</h2>
+                    <img title="JavaScript"class="itens-logotipo" src="src/assets/imagens/tecnologias/js.png" alt="JavaScript">
+                    <img title="HTML 5"class="itens-logotipo" src="src/assets/imagens/tecnologias/html5.png" alt="Html 5">
+                    <img title="CSS 3"class="itens-logotipo" src="src/assets/imagens/tecnologias/css3-alt.png" alt="Css 3">
+                </div>
+                <div class="item"> 
+                    <h2> Back-end</h2>
+                    
+                    <img title="Java" class="itens-logotipo" src="src/assets/imagens/tecnologias/java.png" alt="Java">
+                    <img title="Python"class="itens-logotipo" src="src/assets/imagens/tecnologias/python.png" alt="Python">
+                    <img title="MySql" class="itens-logotipo" src="src/assets/imagens/tecnologias/mysql.png" alt="MySql">
+                </div>
+            </div>
+            <div class="cards-grid" id="c-g">
+                <div class="item">
+                    <h2>Técnicas</h2>
+                    <p> Programação Orientada a Objetos</p>
+                    <p> Integração de APIs RESTFUL</p>
+                    <p> Integração de banco de dados</p>
+                    <p> Clean Code </p>
+                </div>
+            </div>
+        
+        </div>
+        <div class="projetos" id="projetos">
+            <div class="centro"> 
+                <h1>Projetos</h1> 
+            </div>
+
+            <div class="cards-grid-projetos">
+
+                <div class="item-project" >
+                    <h3> Real Converter </h3>
+
+                    <img src="src/assets/imagens/Capas/Converter.jpg" class="imagem-projeto">
+                    
+                    <p class="text-project">
+                        Este aplicativo tem a finalidade de 
+                        converter valores em R$ para as demais
+                        moedas do mundo globalizado com a cotação 
+                        em tempo real.
+                    </p>
+                    
+                    <a href="https://github.com/FelipeViera/APP_converter"> <span style="color:#668db1"> Acessar o Projeto.</span></a>
+                </div>
+                <div class="item-project" >
+                    <h3> Aplicação de Cadastro </h3>
+                    <img src="src/assets/imagens/Capas/cadastro.jpg" class="imagem-projeto">
+                
+                    <p class="text-project" >
+                        Sistema de Cadastro com banco de dados MySql. 
+                        Este programa permite ao usuário criar, logar e 
+                        excluír sua conta do registro. 
+                    </p>
+                    <a href="https://github.com/FelipeViera/Projeto_de_Estudo/tree/main/Python/Cadastro"> <span style="color:#668db1"> Acessar o Projeto.</span></a>
+                </div>
+                <div class="item-project">
+                    <h3> Correction-IA </h3>
+                    <img src="src/assets/imagens/Capas/Correction-IA.png" class="imagem-projeto">
+                
+                    <p class="text-project" >
+                        O Correction-IA, é uma aplicação desktop que tem por objetivo auxiliar 
+                        os vestibulandos na construção das suas redações. O aplicativo fornece
+                        uma correção personalizada com uma provável nota bem próxima do padrão ENEM. 
+                    </p>
+
+                    <a href="https://github.com/FelipeViera/Correction-IA"> <span style="color:#668db1; align-self: flex-end;"> Acessar o Projeto.</span></a>
+                </div>
+
+            </div>
+
+            <div class="cards-grid-projetos">
+
+                <div class="item-project" >
+                    <h3> API Seria A do campeonato brasileiro </h3>
+
+                    <img src="https://a4.espncdn.com/combiner/i?img=%2Fi%2Fleaguelogos%2Fsoccer%2F500%2F85.png" class="imagem-projeto">
+                    
+                    <p class="text-project">
+                        Esta API disponibiliza dados sobre os títulos estaduais, regionais e continentais
+                        da atual elite do Futebol brasileiro.
+                    </p>
+                    
+                    <a href="https://github.com/FelipeViera/API-times-br"> <span style="color:#668db1"> Acessar o Projeto.</span></a>
+                </div>
+                
+
+            </div>
+        </div>
+    </main>
+    <footer>
+
+        <p> Ilustração da capa do projeto Cadastro:</p>
+        <P > <a class="creditos" href="https://br.freepik.com/">Designed by  / Freepik</a> </P>
+        <p> Ilustração da capa do projeto APP Converter:</p>
+        <p> <a class="creditos" href="https://www.freepik.com/"> Designed by studiogstock / Freepik</a> </p>
+    </footer>
+        
+    <script src="src/script/index.js"></script>
+    
+</body>
+</html>

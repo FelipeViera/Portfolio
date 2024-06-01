@@ -1,0 +1,95 @@
+@media screen and (max-width: 500px){
+    header{
+        display: grid;
+        height: 20vh;
+        width: 100vw;
+        place-items: center;
+            
+    
+    }
+    
+    .container-name{
+        display: grid;
+        place-items: center;
+
+    }
+    
+    nav{
+        
+        display: flex;
+        place-items: center;
+    
+       
+    }
+    
+    .menu{
+        border: none;
+        background-color: transparent;
+        font-family: Padrao;
+        font-size: 11pt;
+        color: #f6f0e9;
+        text-align: center;
+        padding: 2.5vw;
+    }
+
+    .social {
+        height: 5vh;
+        margin-bottom: 10vh;
+        margin: 1vw;
+        
+    }
+
+    .card_aba{
+        margin-top: 1vh;
+        width: 70vw;
+        background-color: #273039;
+        border-radius:20px;
+        display: grid;
+        align-self: center;
+       
+    }
+
+    .central-foto{
+        text-align: center;
+    }
+    
+    #foto{
+        height: 32vh;
+
+    }
+
+    .titulo{
+        color:#5893D4;
+        font-size: 16pt;
+        text-align: center;
+    }
+
+    #texto-sobre{
+        padding: 2vh;
+        font-size: 9.5pt;
+    }
+    .cards-grid-projetos{
+        display: grid;
+    }
+
+    .item-project{
+        width: 70vw;
+    }
+    
+    .imagem-projeto{
+        align-self: center;
+        width: 70vw;
+        border-radius: 5px;
+    }
+
+   
+
+
+   
+
+    
+    
+
+    
+
+}
